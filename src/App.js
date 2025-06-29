@@ -109,24 +109,6 @@ function App() {
                 </div>
               </div>
             </div>
-            
-            <div className="project-card">
-              <a href="https://mymediagallery.onrender.com/" target="_blank" rel="noreferrer" className="project-view-btn">
-                View <span className="project-arrow"></span>
-              </a>
-              <div className="project-number">02</div>
-              <div className="project-content">
-                <h3 className="project-title">My Media Gallery</h3>
-                <p className="project-description">
-                  A website that displays my latest updates on different media by web scraping data.
-                </p>
-                <div className="project-tech">
-                  <span className="tech-tag">HTML/CSS</span>
-                  <span className="tech-tag">JavaScript</span>
-                  <span className="tech-tag">Node.js/Express.js</span>
-                </div>
-              </div>
-            </div>
           </div>
         </div>
       </section>
@@ -147,13 +129,13 @@ function App() {
                   <path d="M4 4H20C21.1 4 22 4.9 22 6V18C22 19.1 21.1 20 20 20H4C2.9 20 2 19.1 2 18V6C2 4.9 2.9 4 4 4Z" stroke="currentColor" strokeWidth="1.5"/>
                   <path d="M22 6L12 13L2 6" stroke="currentColor" strokeWidth="1.5"/>
                 </svg>
-                <span>seanandrei700@gmail.com</span>
+                <span>Email</span>
               </a>
               <a href="https://github.com/dreidrey" className="contact-link" target="_blank" rel="noopener noreferrer"aria-label="Visit my GitHub">
                 <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
                   <path d="M12 .5C5.73.5.5 5.73.5 12a11.5 11.5 0 0 0 7.86 10.94c.58.11.79-.25.79-.56v-2.17c-3.2.69-3.87-1.54-3.87-1.54-.53-1.36-1.3-1.73-1.3-1.73-1.06-.73.08-.72.08-.72 1.17.08 1.79 1.21 1.79 1.21 1.04 1.78 2.74 1.27 3.4.97.11-.75.41-1.27.74-1.56-2.55-.29-5.23-1.28-5.23-5.68 0-1.25.45-2.28 1.2-3.09-.12-.29-.52-1.47.11-3.07 0 0 .98-.31 3.2 1.18a11.1 11.1 0 0 1 5.84 0C17.81 2.9 18.8 3.21 18.8 3.21c.63 1.6.23 2.78.11 3.07.75.81 1.2 1.84 1.2 3.09 0 4.41-2.68 5.39-5.24 5.68.42.37.79 1.1.79 2.22v3.3c0 .31.21.67.8.56A11.5 11.5 0 0 0 23.5 12C23.5 5.73 18.27.5 12 .5Z"/>
                 </svg>
-                <span className="contact-text">dreidrey</span>
+                <span className="contact-text">Github</span>
               </a>
             </div>
           </div>
