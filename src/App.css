@@ -125,6 +125,22 @@ body {
   background: linear-gradient(135deg, var(--white) 0%, var(--light-gray) 100%);
 }
 
+.hero::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: url('rain_bg.gif');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed; /* Optional: creates parallax effect */
+  opacity: 0.1; /* 50% transparency */
+  z-index: 0;
+}
+
 .hero-background {
   position: absolute;
   top: -50%;
@@ -349,7 +365,9 @@ body {
 }
 
 .about-text {
-  space-y: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
 }
 
 .about-paragraph {
@@ -499,6 +517,22 @@ body {
   min-height: 70vh;
   display: flex;
   align-items: center;
+}
+
+.contact-section::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: url('rain_bg.gif');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed; /* Optional: creates parallax effect */
+  opacity: 0.1; /* 50% transparency */
+  z-index: 0;
 }
 
 .contact-content {

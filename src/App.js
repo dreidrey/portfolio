@@ -1,4 +1,3 @@
-import React from 'react';
 import './App.css';
 import { Link } from 'react-scroll';
 
@@ -50,6 +49,9 @@ function App() {
           <div className="about-content">
             <div className="about-text">
               <p className="about-paragraph">
+                Hi! I'm Sean Andrei B. Malapit.
+              </p>
+              <p className="about-paragraph">
                 I'm an incoming fourth-year Computer Engineering student at the Technological Institute of the Philippines, Manila Campus. 
                 I enjoy building websites that reflect my interests which is especially around anime and games.
               </p>
@@ -91,7 +93,7 @@ function App() {
           <div className="projects-grid">
             <div className="project-card">
               <a href="https://courtify.onrender.com" target="_blank" rel="noreferrer" className="project-view-btn">
-                View <span className="project-arrow">></span>
+                View <span className="project-arrow"></span>
               </a>
               <div className="project-number">01</div>
               <div className="project-content">
