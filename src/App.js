@@ -49,7 +49,7 @@ function App() {
           <div className="about-content">
             <div className="about-text">
               <p className="about-paragraph">
-                Hi! I'm Sean Andrei B. Malapit.
+                Hello! I'm Sean Andrei B. Malapit.
               </p>
               <p className="about-paragraph">
                 I'm an incoming fourth-year Computer Engineering student at the Technological Institute of the Philippines, Manila Campus. 
