@@ -354,8 +354,16 @@ body {
 
 /* About Section */
 .about-section {
-  background-color: var(--off-white);
+  min-height: 100vh; /* full screen height */
+  background-image: url('totoro_bg.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: var(--off-white); /* fallback color */
+  position: relative;
+  z-index: 0;
 }
+
 
 .about-content {
   display: grid;
@@ -419,14 +427,21 @@ body {
 }
 
 .skill-tag:hover {
-  background-color: #efdeca;
+  background-color: lightgray;
   color: var(--white);
   transform: translateY(-1px);
 }
 
 /* Projects Section */
 .projects-section {
-  background-color: var(--white);
+  min-height: 100vh; /* full screen height */
+  background-image: url('totoro_bg2.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: var(--off-white); /* fallback color */
+  position: relative;
+  z-index: 0;
 }
 
 .projects-grid {
@@ -461,7 +476,7 @@ body {
   transform: translateY(-4px);
   box-shadow: var(--shadow-lg);
   border-color: var(--text-muted);
-  background-color: #efdeca;
+  background-color: lightgray;
 }
 
 .project-number {
@@ -747,7 +762,7 @@ body {
 .project-view-btn:hover {
   transform: translateY(-2px);
   box-shadow: var(--shadow-sm);
-  background-color: var(--hover-color);
+  background-color: lightgray;
   color: var(--text-primary);
   border-color: var(--text-muted);
 }

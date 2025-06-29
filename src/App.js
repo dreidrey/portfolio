@@ -65,7 +65,6 @@ function App() {
                 <h3>Frontend</h3>
                 <div className="skill-tags">
                   <span className="skill-tag">React</span>
-                  <span className="skill-tag">JavaScript</span>
                   <span className="skill-tag">CSS</span>
                   <span className="skill-tag">HTML</span>
                 </div>
@@ -76,6 +75,13 @@ function App() {
                   <span className="skill-tag">Node.js</span>
                   <span className="skill-tag">Express.js</span>
                   <span className="skill-tag">MySQL</span>
+                </div>
+              </div>
+              <div className="skill-category">
+                <h3>Programming Language</h3>
+                <div className="skill-tags">
+                  <span className="skill-tag">JavaScript</span>
+                  <span className="skill-tag">Python</span>
                 </div>
               </div>
             </div>
