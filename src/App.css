@@ -132,12 +132,12 @@ body {
   left: 0;
   right: 0;
   bottom: 0;
-  background-image: url('rain_bg.gif');
+  background-image: url('./assets/rain_bg.gif');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed; /* Optional: creates parallax effect */
-  opacity: 0.1; /* 50% transparency */
+  opacity: 0.2; /* 50% transparency */
   z-index: 0;
 }
 
@@ -277,7 +277,7 @@ body {
   transform: translateX(-50%) scale(0.8) rotate(0deg);
   width: 100px;
   height: 40px;
-  background-image: url('totoro.png');
+  background-image: url('./assets/totoro.png');
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
@@ -299,7 +299,7 @@ body {
 }
 
 .hero-card:has(.hero-btn:hover) {
-  background-image: url('rain.gif');
+  background-image: url('./assets/rain.gif');
 }
 
 .hero-card:has(.hero-btn:hover)::after {
@@ -355,7 +355,7 @@ body {
 /* About Section */
 .about-section {
   min-height: 100vh; /* full screen height */
-  background-image: url('totoro_bg.png');
+  background-image: url('./assets/totoro_bg.png');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -435,7 +435,7 @@ body {
 /* Projects Section */
 .projects-section {
   min-height: 100vh; /* full screen height */
-  background-image: url('totoro_bg2.png');
+  background-image: url('./assets/totoro_bg2.png');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -541,12 +541,12 @@ body {
   left: 0;
   right: 0;
   bottom: 0;
-  background-image: url('rain_bg.gif');
+  background-image: url('./assets/rain_bg.gif');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed; /* Optional: creates parallax effect */
-  opacity: 0.1; /* 50% transparency */
+  opacity: 0.2; /* 50% transparency */
   z-index: 0;
 }
 
@@ -603,7 +603,7 @@ body {
   transform: translateX(-50%);
   width: 35px;
   height: 25px;
-  background-image: url('totoro.png');
+  background-image: url('./assets/totoro.png');
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;

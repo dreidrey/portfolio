@@ -143,6 +143,12 @@ function App() {
                 </svg>
                 <span className="contact-text">Github</span>
               </a>
+              <a href="https://ph.linkedin.com/in/sean-andrei-malapit-867a0a30b" className="contact-link" target="_blank" rel="noopener noreferrer" aria-label="Visit my LinkedIn">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M4.98 3.5C4.98 4.88 3.87 6 2.5 6S0 4.88 0 3.5 1.12 1 2.5 1 4.98 2.12 4.98 3.5zM0 8h5v16H0V8zm7.5 0h4.7v2.2h.1c.65-1.2 2.25-2.2 4.6-2.2 4.9 0 5.8 3.2 5.8 7.4V24h-5v-7.3c0-1.7-.03-3.9-2.4-3.9-2.4 0-2.7 1.8-2.7 3.8V24h-5V8z"/>
+                </svg>
+                <span className="contact-text">LinkedIn</span>
+              </a>
             </div>
           </div>
         </div>
