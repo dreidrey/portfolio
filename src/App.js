@@ -74,6 +74,7 @@ function App() {
                 <div className="skill-tags">
                   <span className="skill-tag">Node.js</span>
                   <span className="skill-tag">Express.js</span>
+                  <span className="skill-tag">Django</span>
                   <span className="skill-tag">MySQL</span>
                 </div>
               </div>
